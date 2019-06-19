@@ -1,0 +1,781 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clr
+{
+    clear: both;
+}
+
+body
+{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative;
+}
+.nav
+{
+    border: 0;
+    position: absolute;
+    width:100%;
+    background-color: rgba(0,0,0,0.1);
+    height: 50px;
+    
+}
+
+}
+.nav ul
+{
+    list-style: none;
+    overflow: auto;
+    font-size: 14px;
+    
+    
+}
+
+.nav ul li
+{
+    
+    float: right;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    font-size: 17;
+    
+    
+    
+    
+     
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    color: white; 
+    display: block;
+    margin-top: 20px;
+    transition-property: color;
+    transition-duration: .7s;
+    
+}
+
+
+.nav .logo
+{
+    
+    color: #ff305b;
+    float: left;
+  
+    display: block;
+    font-size: 24px;
+    font-weight: 800;
+    padding-left: 10;
+    margin-left: 80px;
+    
+    
+   
+}
+
+.nav ul li a:hover
+{
+    color: #ff305b;
+}
+
+.contactb
+{
+    margin-right: 100px;
+}
+.home
+{
+     background-color: rgba(0,0,0,0.8);
+   height: 100%;
+    
+}
+.one
+{
+ background-image: url(s/slider/slider-01.jpg);
+    background-size:cover;
+    height: 700px;
+    color: white;
+    text-align: center;
+    
+   
+}
+
+.homecontent 
+{
+     background-color: transparent;
+    padding-top: 100px;
+    
+}
+
+.homecontent .first
+{
+   
+  
+    padding: 5;
+     padding-top: 150px;
+    
+  
+}
+
+.homecontent .second
+{
+    padding: 5;
+  font-weight: bold;
+    font-size: 70;
+    color: #ff305b;
+ 
+}
+
+.homecontent .third
+{
+    padding: 5;
+    font-weight: normal;
+    font-size: 26;
+}
+
+.secondsection
+{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    padding-top: 80px;
+    position: relative;
+   
+}
+.line
+{
+    border: 1px;
+    border-bottom-style: dashed;
+    border-bottom-color: gray;
+     padding-top: 20;
+    width: 600;
+    margin-left: 667;
+}
+.secondsection .hello .parag1
+{
+    margin: 50;
+    
+}
+
+.hello
+{
+    padding-left: 100;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.parag1
+{
+ 
+    margin-left: 667;
+    text-align: justify;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    
+}
+
+
+.righta
+{
+   text-align: justify;
+    line-height: 2.5;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 200px;
+}
+
+.lefta
+{
+    float: left;
+    margin-left: 667;
+    margin-right: 100;
+    text-align: justify;
+    line-height: 2.5;
+   font-family: 'Roboto', sans-serif;
+}
+
+
+
+.cv
+{
+    background: #ff305b ;
+    border-radius: 4px;
+    border: 0;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+    margin: 20;
+    font-size: 20;
+    transition-property: background; 
+    transition-duration: .7s;
+    cursor: context-menu;
+
+}
+
+.hire
+{
+    
+     background: #ff305b;
+    border-radius: 4px;
+    border: 0;
+    color: #ffffff;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 24px;
+    font-size: 20;
+    transition-property: background; 
+    transition-duration: .7s;
+
+    
+}
+
+.btn1
+{
+    
+    margin-left: 290;
+}
+
+.cv:hover
+{
+    background-color: red;
+}
+
+.hire:hover
+{
+    background-color: red;
+}
+
+.secpic1
+{
+  
+ position: absolute;
+left: 15px;
+    top: 15px;
+    
+}
+
+.secpic1 img
+{
+    border: 1px;
+    border-style: hidden;
+    border-radius: 5px;
+}
+
+.secbord
+{
+   position: absolute;
+    left: 200px;
+    top: 80px;    
+    background-color: transparent;
+    width: 360px;
+    height: 440px;
+    margin: auto;
+    border: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: #555555;
+    border-left-style: solid;
+    border-left-color: #555555;
+    border-top-style: solid;
+    border-top-color:  #555555;
+    border-right-style: solid;
+    border-right-color: #555555;;
+    border-radius: 5px;
+    
+}
+
+.hover1
+{
+    background-color: rgba(0,0,0,.57);
+    position: absolute;
+    left: 25px;
+    top: 450px;
+    width: 360;
+    height: 440;
+    transition-property: all;
+    transition-duration: .7s;
+    border-radius: 5px;
+    opacity: 0;
+    
+    
+    
+}
+
+.hover1 img
+{
+    float: left;
+    width: 50px;
+    position: relative;
+    top: 200px;
+    left: 90px;
+}
+.secbord:hover .hover1
+{
+    top: 25px;
+    right: 50px;
+    opacity: 1;
+}
+
+.thirdsec
+{
+    width: auto;
+    height: auto;
+   background-color: rgb(241, 241, 241);
+}
+.ourservice
+{
+    
+    
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    position: relative;
+    color: #333;
+}
+
+.linea
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.lineb
+{
+    border-top: solid 1px;
+    width: 160px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.linec
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+    margin-bottom: 0px;
+}
+
+.linea, .lineb , .linec
+{
+    padding: 2px;
+}
+
+.service2
+{
+    
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 50px;
+    background-color: rgb(241, 241, 241);
+}
+
+.service2 .son1
+{
+    width: 25%;
+   float: left;
+     
+}
+
+.service2 .son1 h2 , p , img
+{
+    color: black;
+    padding: 10px;
+}
+
+
+.portfolio
+{
+    width: auto;
+    height: auto;
+   background-color: white;
+}
+
+.ourportfolio
+{
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    position: relative;
+    color: #333;
+}
+
+.lined
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.linee
+{
+    border-top: solid 1px;
+    width: 160px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.linef
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+    margin-bottom: 20px;
+}
+
+.lined, .linee , .linef
+{
+    padding: 2px;
+}
+
+.bar
+{
+    border: 0;
+    position: absolute;
+    width:100%;
+    background-color:white;
+    height: 50px;
+    
+}
+
+
+.bar ul
+{
+    list-style: none;
+    overflow: auto;
+    font-size: 16px;
+    
+    
+}
+
+.bar ul li
+{
+    
+   
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    font-size: 17px;
+    padding: 10px; 
+     
+}
+
+.bar ul li a
+{
+    text-decoration: none;
+    color: black; 
+    display: block;
+    margin-top: 20px;
+    transition-property: color;
+    transition-duration: .7s;
+    
+}
+
+.pics1 img , .pics2 img
+{
+    width: 400px;
+    padding: 20px;
+    
+    
+}
+
+.pics1 img
+{
+    
+    margin-top: 100px;
+}
+
+.pics2 img
+{
+    
+    margin-bottom: 100px;
+}
+
+    
+
+.project
+{
+    color: black;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    padding: 50px;
+    background-color: rgb(241, 241, 241);
+    margin-bottom: 50px;
+}
+
+.project .pro1
+{
+    width: 25%;
+   float: left;
+     
+}
+
+.project .pro1 h3 , a , img
+{
+       color: #555555;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+
+.project .pro1 h3
+{
+    font-size: 26px;
+    
+}
+
+.project .pro1 img
+{
+    width: 60px;
+}
+
+
+
+.feedback
+{
+    width: auto;
+    height: auto;
+   background-color: white;
+}
+
+.feedback1
+{
+    font-size: 40px;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    position: relative;
+    color: #333;
+}
+
+.lineg
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.lineh
+{
+    border-top: solid 1px;
+    width: 160px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.linei
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+    margin-bottom: 30px;
+}
+
+.lineg, .lineh , .linei
+{
+    padding: 2px;
+}
+
+.people
+{
+    
+    width: 750px;
+    height: 274px;
+    background-color: white;
+    
+    border-radius: 5px;
+   
+    margin: auto;
+    margin-bottom: 50px;
+}
+.people1
+{
+    width: 720px;
+    height: 274px;
+    background-color: rgb(241, 241, 241);
+    background-image : linear-gradient(135deg, #ff305b 20%, #f1f1f1 1%, #f1f1f1);
+    position: absolute;
+    
+}
+
+.people1 h3
+{
+    font-size: 26px;
+    color: black;
+}
+
+.people1 h4
+{
+    font-size: 18px;
+    color: #555555;
+}
+
+.people h3 , h4  
+{
+    text-align: justify;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.people p
+{
+    line-height: 1.5;
+     text-align: justify;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+
+.location
+{
+    width: 40px;
+    margin-bottom: auto;
+}
+
+.rating 
+{
+    width: 150px;
+    margin-right: 200px;
+    
+    
+}
+
+
+.imgg
+{
+   background-image: url(s/testimonial/2.jpg);
+    display: inline-block;
+    
+}
+
+.fifthsec
+{
+    width: auto;
+    height: auto;
+   background-color: rgb(241, 241, 241);
+}
+
+
+.line1
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.line2
+{
+    border-top: solid 1px;
+    width: 160px;
+    margin: auto;
+    color: #ff305b;
+}
+
+.line3
+{
+    border-top: solid 1px;
+    width: 80px;
+    margin: auto;
+    color: #ff305b;
+    margin-bottom: 0px;
+}
+
+.line1, .line2 , .line3
+{
+    padding: 2px;
+}
+
+.service20
+{
+    
+    width: 80%;
+    margin: auto;
+    height: auto;
+    padding: 50px;
+    background-color: rgb(241, 241, 241);
+}
+
+.service20 .layer
+{
+    width: 33.3333%;
+   float: left;
+    padding: 10px;
+     
+}
+
+.service20 .layer  .A , p , img , .read
+{
+    color: black;
+    padding: 10px;
+}
+
+.service20 .layer img
+{
+    width: 100%;
+}
+
+.service20 .layer h3 , p, .A , .read
+{
+   text-align: justify;
+}
+
+.service20 .layer p ,h3
+{
+    color: #555555;
+}
+
+.service20 .layer h3
+{
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.service20 .layer .read
+{
+    border: 0px;
+    margin-right: 200px;
+}
+
+
+.ourblog
+{
+    
+    
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-top: 100px;
+    position: relative;
+    color: #333;
+}
+
+.son10
+{
+    background-color: white;
+}
+
+
